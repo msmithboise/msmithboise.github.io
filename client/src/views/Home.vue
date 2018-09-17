@@ -43,6 +43,10 @@
             </v-flex>
           </v-layout>
         </v-container>
+
+
+
+
         <v-container fluid grid-list-sm text-xs-center class="profs-two">
           <v-layout row wrap>
             <v-flex>
@@ -55,12 +59,40 @@
             </v-flex>
           </v-layout>
         </v-container>
+  <section>
+        <v-parallax 
+        
+        src="@/assets/designbackground.jpeg" height="700" width="1800" alt="design">
+       
+          <v-layout column align-center justify-center>
+            <div class="headline white--text mb-3 text-xs-center">Web development has never been easier</div>
+            <em>Kick-start your application today</em>
+            <v-btn
+              class="blue lighten-2 mt-5"
+              dark
+              large
+              href="/pre-made-themes"
+            >
+              Get Started
+            </v-btn>
+          </v-layout>
+        </v-parallax>
+      </section>
 
         <v-container fluid grid-list-sm text-xs-center class="portfolio">
           <h1>Portfolio</h1>
         <v-layout>
           <v-flex>
-            
+            <v-card class="elevation-20">
+            <img src="@/assets/pokemonslap.png" height="250" width="450" alt="slap">
+            </v-card>
+             <img src="@/assets/inspire.png" height="250" width="450" alt="inspire">
+             <img src="@/assets/battlecatz.png" height="250" width="450" alt="inspire">
+             <img src="@/assets/vuemusic.png" height="250" width="450" alt="vuemusic">
+             <img src="@/assets/trillo.png" height="250" width="450" alt="trillo">
+
+
+
 
           </v-flex>
           </v-layout>
@@ -86,72 +118,64 @@
 
 
 <script>
-
-
-
-
-
 </script>
 
 
 <style>
-  /* v-card{
+/* v-card{
     background-color: blueviolet;
   } */
 
-  .profs-one{
-    background-color: #f9f9f9;
-  }
+.profs-one {
+  background-color: #f9f9f9;
+}
 
-  .profs-two{
-    background-color: #f9f9f9;
-  }
+.profs-two {
+  background-color: #f9f9f9;
+}
 
-   .portfolio{
-    background-color: #3b3b3b;
-  }
-  .hero {
+.portfolio {
+  background-color: #3b3b3b;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 100%;
 
-    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
+.hero-heading {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+.hero-paragraph {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
+.heading-one {
+  text-align: center;
 
-  .hero-heading {
-    text-align: center;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
-  .hero-paragraph {
-    text-align: center;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-
-  .heading-one {
-    text-align: center;
-
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-
-  i {
-    font-size: 8em;
-  }
+i {
+  font-size: 8em;
+}
 </style>

@@ -79,10 +79,12 @@
 
             <em>Design has always fascinated me.</em>
             <em>How something breathtaking starts as a mere thought..</em>
-            <em>How a simple idea brought to life can impact someone elses.</em>
+            <em>How a simple idea brought to life can impact someone's very own.</em>
             <em>My name is Michael Smith</em>
+            <em>I am a creative.</em>
+            <em>I am a visionary.</em>
             <em>I am a developer</em>
-            <em>And I wouldn't have it any other way...</em>
+            
 
 
 

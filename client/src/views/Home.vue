@@ -5,12 +5,10 @@
 
           <v-toolbar class="navbar">
             <v-toolbar-side-icon></v-toolbar-side-icon>
-            <v-toolbar-title>Title</v-toolbar-title>
+            <!-- <v-toolbar-title>Title</v-toolbar-title> -->
             <v-spacer></v-spacer>
             <v-toolbar-items class="hidden-sm-and-down">
-              <v-btn flat>Link One</v-btn>
-              <v-btn flat>Link Two</v-btn>
-              <v-btn flat>Link Three</v-btn>
+           
             </v-toolbar-items>
           </v-toolbar>
 
@@ -108,6 +106,7 @@
         <v-container fluid grid-list-sm text-xs-center class="portfolio">
           <h1 class="portfolio-title" style="color:#212121;">Portfolio</h1>
         <v-layout row wrap>
+          
           <v-flex pa-5>
            <div>
             <img src="@/assets/pokemonslap.png" class="elevation-24" height="250" width="400" alt="slap">
@@ -131,6 +130,36 @@
           </v-layout>
         </v-container>
     
+<v-footer
+    dark
+    height="auto"
+  >
+    <v-card
+      class="flex"
+      flat
+      tile
+    >
+      <v-card-title class="grey darken-4">
+        <strong class="subheading"></strong>
+
+        <v-spacer></v-spacer>
+
+        <v-btn
+          v-for="icon in icons"
+          :key="icon"
+          class="mx-3"
+          dark
+          icon
+        >
+          <v-icon size="24px">{{ icon }}</v-icon>
+        </v-btn>
+      </v-card-title>
+
+      <v-card-actions class="grey darken-3 justify-center">
+        <strong></strong>
+      </v-card-actions>
+    </v-card>
+  </v-footer>
 
 
 
@@ -149,15 +178,53 @@
 
 
 
-
 <script>
+
+ export default {
+    data: () => ({
+      icons: [
+        'fab fa-facebook',
+        'fab fa-twitter',
+        'fab fa-google-plus',
+        'fab fa-linkedin',
+        'fab fa-instagram'
+      ]
+    })
+  }
+
 </script>
 
 
 <style>
-/* v-card{
-    background-color: blueviolet;
-  } */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .heading {
   color: #212121;
 }

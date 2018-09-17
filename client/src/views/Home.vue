@@ -16,7 +16,7 @@
 
 <v-parallax
       dark
-      height="700"
+      height="800"
       src="https://images.unsplash.com/photo-1521067842-8d1618327b7f?ixlib=rb-0.3.5&s=2de7e01ca75a5a455d832a29d379583f&auto=format&fit=crop&w=1489&q=80.jpg"
     >
       <v-layout
@@ -91,7 +91,8 @@
 
 
             <v-btn
-              class="blue lighten-2 mt-5"
+              class="grey lighten-4 mt-5 elevation-24"
+              style="color:#212121"
               dark
               large
               href="/pre-made-themes"

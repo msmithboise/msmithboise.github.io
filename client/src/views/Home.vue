@@ -1,10 +1,9 @@
 <template>
-  <v-app>
-    <v-content>
-      <section>
-        <v-parallax grid-list-md text-xs-center>
 
-          <v-toolbar>
+  <v-app dark>
+    <v-content>
+
+          <v-toolbar class="navbar">
             <v-toolbar-side-icon></v-toolbar-side-icon>
             <v-toolbar-title>Title</v-toolbar-title>
             <v-spacer></v-spacer>
@@ -15,31 +14,54 @@
             </v-toolbar-items>
           </v-toolbar>
 
-          <v-layout row wrap>
+<v-parallax
+      dark
+      height="700"
+      src="https://images.unsplash.com/photo-1521067842-8d1618327b7f?ixlib=rb-0.3.5&s=2de7e01ca75a5a455d832a29d379583f&auto=format&fit=crop&w=1489&q=80.jpg"
+    >
+      <v-layout
+        align-center
+        column
+        justify-center
+      >
+        <h1 class="display-2 font-weight-thin mb-3 heading">Michael Smith</h1>
+        <h4 class="heading">Developer | Designer</h4>
+      </v-layout>
+    </v-parallax>
 
-            <img src="@/assets/modern.jpeg" height="700" width="1800" alt="modern">
-            <h1 class="hero-heading">Michael Smith</h1>
-            <p class="hero-paragraph">Developer | Designer</p>
-          </v-layout>
-        </v-parallax>
-      </section>
-
-      
-        <v-container fluid grid-list-sm text-xs-center class="profs-one">
+ <v-container  fluid grid-list-sm text-xs-center class="profs-one">
          
           <h1 style="margin-bottom: 5%">Proficiencies</h1>
         
-          <v-layout row wrap>
+         <v-layout >
+            <v-flex >
+             
+             
+              <i class="devicon-bootstrap-plain colored icons px-3"></i>
+              
+             <i class="fab fa-html5 pa-4"></i>
+              <i class="fab fa-css3 pa-4"></i>
+              <i class="devicon-csharp-plain colored pa-4"></i>
+              <i class="devicon-javascript-plain colored pa-4"></i>
+              <i class="devicon-mongodb-plain-wordmark colored pa-4"></i>
+              <v-spacer></v-spacer>
+              <i class="devicon-mysql-plain-wordmark colored pa-4"></i>
+              <i class="devicon-express-original-wordmark colored pa-4"></i>
+              <i class="devicon-git-plain colored pa-4"></i>
+              <i class="devicon-nodejs-plain-wordmark colored px-4"></i>
+              <i class="devicon-vuejs-plain-wordmark colored pa-4"></i>
+              <i class="devicon-wordpress-plain colored pa-4"></i>
+
+             
+            
+            
+            </v-flex>
+          </v-layout>
+
+           <v-layout row wrap>
             <v-flex sm12>
-             <v-card hover>
-
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-css3"></i>
-              <i class="devicon-bootstrap-plain colored icons"></i>
+             <v-card>
             </v-card>
-              <i class="devicon-csharp-plain colored"></i>
-              <i class="devicon-express-original-wordmark colored"></i>
-              <i class="devicon-git-plain colored"></i>
             </v-flex>
           </v-layout>
         </v-container>
@@ -47,54 +69,62 @@
 
 
 
-        <v-container fluid grid-list-sm text-xs-center class="profs-two">
-          <v-layout row wrap>
-            <v-flex>
-              <i class="devicon-javascript-plain colored"></i>
-              <i class="devicon-mongodb-plain-wordmark colored"></i>
-              <i class="devicon-mysql-plain-wordmark colored"></i>
-              <i class="devicon-nodejs-plain-wordmark colored"></i>
-              <i class="devicon-vuejs-plain-wordmark colored"></i>
-              <i class="devicon-wordpress-plain colored"></i>
-            </v-flex>
-          </v-layout>
-        </v-container>
-  <section>
+        
         <v-parallax 
         
-        src="@/assets/designbackground.jpeg" height="700" width="1800" alt="design">
+        src="https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-0.3.5&s=307ff4c303f8e971b819931a3cc60796&auto=format&fit=crop&w=1535&q=80.jpg" height="700" width="1800" alt="design">
        
           <v-layout column align-center justify-center>
-            <div class="headline white--text mb-3 text-xs-center">Web development has never been easier</div>
-            <em>Kick-start your application today</em>
+            <div class="headline white--text mb-3 text-xs-center">Who I am:</div>
+
+            <em>Design has always fascinated me.</em>
+            <em>How something breathtaking starts as a mere thought..</em>
+            <em>How a simple idea brought to life can impact someone elses.</em>
+            <em>My name is Michael Smith</em>
+            <em>I am a developer</em>
+            <em>And I wouldn't have it any other way...</em>
+
+
+
+            
+
+
+
             <v-btn
               class="blue lighten-2 mt-5"
               dark
               large
               href="/pre-made-themes"
             >
-              Get Started
+              Contact Me
             </v-btn>
           </v-layout>
         </v-parallax>
-      </section>
+      
 
         <v-container fluid grid-list-sm text-xs-center class="portfolio">
-          <h1>Portfolio</h1>
-        <v-layout>
-          <v-flex>
-            <v-card class="elevation-20">
-            <img src="@/assets/pokemonslap.png" height="250" width="450" alt="slap">
-            </v-card>
-             <img src="@/assets/inspire.png" height="250" width="450" alt="inspire">
-             <img src="@/assets/battlecatz.png" height="250" width="450" alt="inspire">
-             <img src="@/assets/vuemusic.png" height="250" width="450" alt="vuemusic">
-             <img src="@/assets/trillo.png" height="250" width="450" alt="trillo">
+          <h1 class="portfolio-title" style="color:#212121;">Portfolio</h1>
+        <v-layout row wrap>
+          <v-flex pa-5>
+           <div>
+            <img src="@/assets/pokemonslap.png" class="elevation-24" height="250" width="400" alt="slap">
+           </div>
+
+             <img src="@/assets/inspire.png" class="elevation-24" height="250" width="400" alt="inspire">
+            
+            <img src="@/assets/trillo.png" class="elevation-24" height="250" width="400" alt="trillo">
+
+             
+
+ 
+           <img src="@/assets/vuemusic.png" class="elevation-24"  height="250" width="400" alt="vuemusic">
+         
 
 
-
-
-          </v-flex>
+           <img src="@/assets/battlecatz.png" class="elevation-24"  height="250" width="400" alt="battlecatz">
+            
+            
+            </v-flex>
           </v-layout>
         </v-container>
     
@@ -125,17 +155,27 @@
 /* v-card{
     background-color: blueviolet;
   } */
-
+.heading {
+  color: #212121;
+}
 .profs-one {
-  background-color: #f9f9f9;
+  background-color: #212121;
+}
+
+.navbar {
+  background-color: #212121;
 }
 
 .profs-two {
   background-color: #f9f9f9;
 }
 
+.portfolio-title {
+  color: #f9f9f9;
+}
+
 .portfolio {
-  background-color: #3b3b3b;
+  background-color: #f9f9f9;
 }
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));

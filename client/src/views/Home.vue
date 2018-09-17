@@ -24,7 +24,7 @@
         </v-parallax>
       </section>
 
-      <section>
+      
         <v-container fluid grid-list-sm text-xs-center class="profs-one">
          
           <h1 style="margin-bottom: 5%">Proficiencies</h1>
@@ -55,8 +55,17 @@
             </v-flex>
           </v-layout>
         </v-container>
-      </section>
 
+        <v-container fluid grid-list-sm text-xs-center class="portfolio">
+          <h1>Portfolio</h1>
+        <v-layout>
+          <v-flex>
+            
+
+          </v-flex>
+          </v-layout>
+        </v-container>
+    
 
 
 
@@ -96,6 +105,10 @@
 
   .profs-two{
     background-color: #f9f9f9;
+  }
+
+   .portfolio{
+    background-color: #3b3b3b;
   }
   .hero {
 

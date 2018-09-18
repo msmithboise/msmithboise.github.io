@@ -3,9 +3,9 @@
   <v-app dark>
     <v-content>
 
-          <v-toolbar class="navbar">
+          <!-- <v-toolbar class="navbar">
             <v-toolbar-side-icon></v-toolbar-side-icon>
-            <!-- <v-toolbar-title>Title</v-toolbar-title> -->
+            <!<v-toolbar-title>Title</v-toolbar-title> -->
             <v-spacer></v-spacer>
             <v-toolbar-items class="hidden-sm-and-down">
            
@@ -14,7 +14,7 @@
 
 <v-parallax
       dark
-      height="800"
+      height="900"
       src="https://images.unsplash.com/photo-1521067842-8d1618327b7f?ixlib=rb-0.3.5&s=2de7e01ca75a5a455d832a29d379583f&auto=format&fit=crop&w=1489&q=80.jpg"
     >
       <v-layout
@@ -70,11 +70,12 @@
         
         <v-parallax 
         
-        src="https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-0.3.5&s=307ff4c303f8e971b819931a3cc60796&auto=format&fit=crop&w=1535&q=80.jpg" height="700" width="1800" alt="design">
+        src="https://images.unsplash.com/photo-1468325089340-2ec20e175048?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=043463682fd9679a9588c876fd72ab34&auto=format&fit=crop&w=1652&q=80.jpg" height="700" width="1800" alt="design">
        
           <v-layout column align-center justify-center>
-            <div class="headline white--text mb-3 text-xs-center">Who I am:</div>
+            <div class="headline black--text mb-3 text-xs-center">Who I am:</div>
 
+           
             <em>Design has always fascinated me.</em>
             <em>How something breathtaking starts as a mere thought..</em>
             <em>How a simple idea brought to life can impact someone's very own.</em>
@@ -82,6 +83,7 @@
             <em>I am a creative.</em>
             <em>I am a visionary.</em>
             <em>I am a developer</em>
+            
             
 
 
@@ -104,7 +106,7 @@
       
 
         <v-container fluid grid-list-sm text-xs-center class="portfolio">
-          <h1 class="portfolio-title" style="color:#212121;">Portfolio</h1>
+          <h1 class="portfolio-title" style="color:#f9f9f9;">Portfolio</h1>
         <v-layout row wrap>
           
           <v-flex pa-5>
@@ -131,7 +133,7 @@
         </v-container>
     
 <v-footer
-    dark
+    light
     height="auto"
   >
     <v-card
@@ -214,7 +216,7 @@
 }
 
 .text {
-  color: white;
+  color: #050505;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -225,11 +227,15 @@
   text-align: center;
 }
 
+em{
+  color: #050505;
+}
+
 .heading {
   color: #212121;
 }
 .profs-one {
-  background-color: #212121;
+  background-color: #050505;
 }
 
 .navbar {
@@ -245,7 +251,7 @@
 }
 
 .portfolio {
-  background-color: #f9f9f9;
+  background-color: #050505;
 }
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));

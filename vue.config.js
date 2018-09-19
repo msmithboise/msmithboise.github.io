@@ -1,4 +1,4 @@
 module.exports = {
-  baseUrl: 'vue-landingpage',
+  baseUrl: '',
   outputDir: 'docs'
 }

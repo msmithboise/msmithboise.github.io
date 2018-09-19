@@ -20,7 +20,7 @@
       </v-parallax>
 
       <v-container fluid grid-list-sm text-xs-center class="profs-one">
-// use flex box + flex wrap 
+
         <h1 style="margin-bottom: 5%">Proficiencies</h1>
 
         <v-layout>

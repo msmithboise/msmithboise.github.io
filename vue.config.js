@@ -1,4 +1,4 @@
 module.exports = {
-  baseUrl: '/msmithboise.github.io/',
+  baseUrl: '/',
   outputDir: 'docs'
 }

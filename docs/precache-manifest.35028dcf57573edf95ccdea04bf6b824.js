@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/vue-landingpage/js/chunk-vendors.c0204cbe.js"
   },
   {
-    "revision": "02d4cdae593f6b2b9a31",
-    "url": "/vue-landingpage/js/app.e3be80b9.js"
+    "revision": "7470d46ca157cc7e3b62",
+    "url": "/vue-landingpage/js/app.732392c9.js"
   },
   {
     "revision": "6249ec0a09fa811f3d25",
     "url": "/vue-landingpage/js/about.2ca2c031.js"
   },
   {
-    "revision": "d245fc9cdbe40a7056e722043fde74ea",
+    "revision": "e300df428a2eb4c50bf8c3be4ceff895",
     "url": "/vue-landingpage/index.html"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/vue-landingpage/css/chunk-vendors.b5de6203.css"
   },
   {
-    "revision": "02d4cdae593f6b2b9a31",
+    "revision": "7470d46ca157cc7e3b62",
     "url": "/vue-landingpage/css/app.3f64746d.css"
   }
 ];

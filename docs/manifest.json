@@ -1,16 +1,16 @@
 {
-  "name": "client",
-  "short_name": "client",
+  "name": "Michael Smith",
+  "short_name": "Michael Smith",
   "icons": [
     {
-      "src": "/img/icons/android-chrome-192x192.png",
+      "src": "https://www.google.com/search?biw=1397&bih=664&tbm=isch&sa=1&ei=RjGlW-XrJMqQ0gLijpW4BA&q=m+icons&oq=m+icons&gs_l=img.3..0l4j0i7i30l6.4719.6405..6549...1.0..0.163.460.0j3......1....1..gws-wiz-img.......35i39j0i67.RJHAUG68Lew#imgrc=fLWK4rupDKxAUM:.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/img/icons/android-chrome-512x512.png",
+      "src": "https://www.google.com/search?biw=1397&bih=664&tbm=isch&sa=1&ei=RjGlW-XrJMqQ0gLijpW4BA&q=m+icons&oq=m+icons&gs_l=img.3..0l4j0i7i30l6.4719.6405..6549...1.0..0.163.460.0j3......1....1..gws-wiz-img.......35i39j0i67.RJHAUG68Lew#imgrc=fLWK4rupDKxAUM:.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "url"
     }
   ],
   "start_url": "/index.html",

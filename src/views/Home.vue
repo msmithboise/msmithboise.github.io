@@ -108,8 +108,9 @@
                 <img src="@/assets/inspire.png" class="elevation-24" height="250" width="400" alt="inspire">
               </a>
             
-
+              <a href="https://trillo-kanban.herokuapp.com/">
             <img src="@/assets/trillo.png" class="elevation-24" height="250" width="400" alt="trillo">
+            </a>
 
 
 
@@ -161,117 +162,117 @@
 
 
 <script>
-  export default {
-    data: () => ({
-      icons: [
-        "fab fa-facebook",
-        "fab fa-twitter",
-        "fab fa-google-plus",
-        "fab fa-linkedin",
-        "fab fa-instagram"
-      ]
-    })
-  };
+export default {
+  data: () => ({
+    icons: [
+      "fab fa-facebook",
+      "fab fa-twitter",
+      "fab fa-google-plus",
+      "fab fa-linkedin",
+      "fab fa-instagram"
+    ]
+  })
+};
 </script>
 
 
 <style>
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 0.5s ease;
-    background-color: #008cba;
-  }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
 
-  .container:hover .overlay {
-    opacity: 1;
-  }
+.container:hover .overlay {
+  opacity: 1;
+}
 
-  .text {
-    color: #050505;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+.text {
+  color: #050505;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-  em {
-    color: #050505;
-  }
+em {
+  color: #050505;
+}
 
-  .heading {
-    color: #212121;
-  }
+.heading {
+  color: #212121;
+}
 
-  .profs-one {
-    background-color: #050505;
-  }
+.profs-one {
+  background-color: #050505;
+}
 
-  .navbar {
-    background-color: #212121;
-  }
+.navbar {
+  background-color: #212121;
+}
 
-  .profs-two {
-    background-color: #f9f9f9;
-  }
+.profs-two {
+  background-color: #f9f9f9;
+}
 
-  .portfolio-title {
-    color: #f9f9f9;
-  }
+.portfolio-title {
+  color: #f9f9f9;
+}
 
-  .portfolio {
-    background-color: #050505;
-  }
+.portfolio {
+  background-color: #050505;
+}
 
-  .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 
-    height: 100%;
+  height: 100%;
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
-  .hero-heading {
-    text-align: center;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
+.hero-heading {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
-  .hero-paragraph {
-    text-align: center;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
+.hero-paragraph {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
-  .heading-one {
-    text-align: center;
+.heading-one {
+  text-align: center;
 
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
-  i {
-    font-size: 8em;
-  }
+i {
+  font-size: 8em;
+}
 </style>

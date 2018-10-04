@@ -91,10 +91,11 @@
 
 
       <v-container fluid grid-list-sm text-xs-center class="portfolio">
-        <h1 class="portfolio-title" style="color:#f9f9f9;">Portfolio</h1>
+        <h1 class="portfolio-title" style="color:#f9f9f9;">Applications</h1>
         <v-layout row wrap>
 
           <v-flex pa-5>
+
             <div>
               <a href="https://msmithboise.github.io/Slap-emon/">
 
@@ -102,6 +103,15 @@
 
               </a>
             </div>
+
+            <div>
+              <a href="https://partyox.herokuapp.com/#/">
+
+                <img src="@/assets/partyox.png" class="elevation-24" height="250" width="400" alt="ox">
+
+              </a>
+            </div>
+            
             
               
               <a href="https://msmithboise.github.io/inspire/">

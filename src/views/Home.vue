@@ -118,8 +118,9 @@
             <img src="@/assets/vuemusic.png" class="elevation-24" height="250" width="400" alt="vuemusic">
           </a>
 
-
+            <a href="https://msmithboise.github.io/battle-cards/#/">
             <img src="@/assets/battlecatz.png" class="elevation-24" height="250" width="400" alt="battlecatz">
+            </a>
 
 
           </v-flex>

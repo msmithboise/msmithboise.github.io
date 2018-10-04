@@ -102,9 +102,7 @@
                 <img src="@/assets/pokemonslap.png" class="elevation-24" height="250" width="400" alt="slap">
 
               </a>
-            </div>
-
-            <div>
+            
               <a href="https://partyox.herokuapp.com/#/">
 
                 <img src="@/assets/partyox.png" class="elevation-24" height="250" width="400" alt="ox">

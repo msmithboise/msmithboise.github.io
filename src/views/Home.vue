@@ -21,7 +21,7 @@
 
       <v-container fluid grid-list-sm text-xs-center class="profs-one">
 
-        <h1 style="margin-bottom: 5%">Proficiencies</h1>
+         <h1 class="heading display-1 font-weight-thin mb-3 mt-3" style="color:#f9f9f9;">PROFICIENCIES</h1>
 
         <v-layout>
           <v-flex>
@@ -63,17 +63,17 @@
       <v-parallax src="https://images.unsplash.com/photo-1468325089340-2ec20e175048?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=043463682fd9679a9588c876fd72ab34&auto=format&fit=crop&w=1652&q=80.jpg"
         height="700" width="1800" alt="design">
 
-        <v-layout column align-center justify-center>
-          <div class="headline black--text mb-3 text-xs-center">Who I am:</div>
+        <v-layout column align-center mt-5>
+          <div class="heading display-1 font-weight-thin mb-3 ">DESIGNS</div>
 
 
-          <em>Design has always fascinated me.</em>
+          <!-- <em>Design has always fascinated me.</em>
           <em>How something breathtaking starts as a mere thought..</em>
           <em>How a simple idea brought to life can impact someone's very own.</em>
           <em>My name is Michael Smith</em>
           <em>I am a creative.</em>
           <em>I am a visionary.</em>
-          <em>I am a developer</em>
+          <em>I am a developer</em> -->
 
 
 
@@ -83,15 +83,15 @@
 
 
 
-          <v-btn class="grey lighten-4 mt-5 elevation-24" style="color:#212121" dark large href="/pre-made-themes">
+          <!-- <v-btn class="grey lighten-4 mt-5 elevation-24" style="color:#212121" dark large href="/pre-made-themes">
             Contact Me
-          </v-btn>
+          </v-btn> -->
         </v-layout>
       </v-parallax>
 
 
       <v-container fluid grid-list-sm text-xs-center class="portfolio">
-        <h1 class="portfolio-title" style="color:#f9f9f9;">Applications</h1>
+        <h1 class="  display-1 font-weight-thin mb-3" style="color:#f9f9f9;">Applications</h1>
         <v-layout row wrap>
 
           <v-flex pa-5>
@@ -186,6 +186,10 @@ export default {
 
 
 <style>
+h1 {
+  font-size: 3vh;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -205,7 +209,7 @@ export default {
 
 .text {
   color: #050505;
-  font-size: 20px;
+  font-size: 6vh;
   position: absolute;
   top: 50%;
   left: 50%;

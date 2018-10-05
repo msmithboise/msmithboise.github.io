@@ -21,7 +21,7 @@
 
       <v-container fluid grid-list-sm text-xs-center class="profs-one">
 
-         <h1 class="heading display-1 font-weight-thin mb-3 mt-3" style="color:#f9f9f9;">PROFICIENCIES</h1>
+         <h1 class="heading display-1 font-weight-thin mb-3 mt-3" style="color:#f9f9f9;">Proficiencies</h1>
 
         <v-layout>
           <v-flex>
@@ -64,7 +64,7 @@
         height="700" width="1800" alt="design">
 
         <v-layout column align-center mt-5>
-          <div class="heading display-1 font-weight-thin mb-3 ">DESIGNS</div>
+          <div class="heading display-1 font-weight-thin mb-3 ">Designs</div>
 
 
           <!-- <em>Design has always fascinated me.</em>

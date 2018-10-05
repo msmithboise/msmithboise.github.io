@@ -67,11 +67,11 @@
           <div class="heading display-1 font-weight-thin mb-3 ">Designs</div>
 
 <div class="seperate">
-             <a href="https://msmithboise.github.io/inspire/">
+             <a href="https://experiencecfc.com/">
                 <img src="@/assets/cfc.png" class="elevation-24" height="250" width="400" alt="inspire">
               </a>
             
-              <a href="https://trillo-kanban.herokuapp.com/">
+              <a href="https://sweethopeinc.com/">
             <img src="@/assets/sweethope.png" class="elevation-24" height="250" width="400" alt="trillo">
             </a>
 

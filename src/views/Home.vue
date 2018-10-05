@@ -66,6 +66,23 @@
         <v-layout column align-center mt-5>
           <div class="heading display-1 font-weight-thin mb-3 ">Designs</div>
 
+<div class="seperate">
+             <a href="https://msmithboise.github.io/inspire/">
+                <img src="@/assets/cfc.png" class="elevation-24" height="250" width="400" alt="inspire">
+              </a>
+            
+              <a href="https://trillo-kanban.herokuapp.com/">
+            <img src="@/assets/sweethope.png" class="elevation-24" height="250" width="400" alt="trillo">
+            </a>
+
+
+
+            <a href="https://msmithboise.github.io/Musicisfun/">
+            <img src="@/assets/fulcher.png" class="elevation-24" height="250" width="400" alt="vuemusic">
+          </a>
+
+          </div>
+
 
           <!-- <em>Design has always fascinated me.</em>
           <em>How something breathtaking starts as a mere thought..</em>
@@ -188,6 +205,11 @@ export default {
 <style>
 h1 {
   font-size: 3vh;
+}
+
+.seperate {
+  display: flex;
+  align-items: center;
 }
 
 .overlay {

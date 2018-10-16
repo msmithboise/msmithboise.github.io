@@ -7,9 +7,9 @@
             <v-toolbar-side-icon></v-toolbar-side-icon>
             <!<v-toolbar-title>Title</v-toolbar-title> -->
       <v-spacer></v-spacer>
-      <v-toolbar-items class="hidden-sm-and-down">
+      <!-- <v-toolbar-items class="hidden-sm-and-down">
 
-      </v-toolbar-items>
+      </v-toolbar-items> -->
       <!-- </v-toolbar> -->
 
       <v-parallax dark height="900" src="https://images.unsplash.com/photo-1521067842-8d1618327b7f?ixlib=rb-0.3.5&s=2de7e01ca75a5a455d832a29d379583f&auto=format&fit=crop&w=1489&q=80.jpg">
@@ -19,13 +19,19 @@
         </v-layout>
       </v-parallax>
 
+
+      <!-- proficiencies -->
+
       <v-container fluid grid-list-sm text-xs-center class="profs-one">
+
+
 
          <h1 class="heading display-1 font-weight-thin mb-3 mt-3" style="color:#f9f9f9;">Proficiencies</h1>
 
-        <v-layout>
-          <v-flex>
 
+<div class="prof-wrap">
+      
+       
 
             <i class="devicon-bootstrap-plain colored icons px-3"></i>
 
@@ -34,26 +40,15 @@
             <i class="devicon-csharp-plain colored pa-4"></i>
             <i class="devicon-javascript-plain colored pa-4"></i>
             <i class="devicon-mongodb-plain-wordmark colored pa-4"></i>
-            <v-spacer></v-spacer>
+          
             <i class="devicon-mysql-plain-wordmark colored pa-4"></i>
             <i class="devicon-express-original-wordmark colored pa-4"></i>
             <i class="devicon-git-plain colored pa-4"></i>
             <i class="devicon-nodejs-plain-wordmark colored px-4"></i>
             <i class="devicon-vuejs-plain-wordmark colored pa-4"></i>
             <i class="devicon-wordpress-plain colored pa-4"></i>
+  </div>
 
-
-
-
-          </v-flex>
-        </v-layout>
-
-        <v-layout row wrap>
-          <v-flex sm12>
-            <v-card>
-            </v-card>
-          </v-flex>
-        </v-layout>
       </v-container>
 
 
@@ -65,8 +60,9 @@
 
         <v-layout column align-center mt-5>
           <div class="heading display-1 font-weight-thin mb-3 ">Designs</div>
+<!-- designs -->
 
-<div class="seperate mt-5">
+<div class="seperate mt-5 designs-wrap">
              <a href="https://experiencecfc.com/">
                 <img src="@/assets/cfc.png" class="elevation-24" height="250" width="400" alt="inspire">
               </a>
@@ -75,53 +71,28 @@
             <img src="@/assets/sweethope.png" class="elevation-24" height="250" width="400" alt="trillo">
             </a>
 
-
-
-            <!-- <a href="https://msmithboise.github.io/Musicisfun/">
-            <img src="@/assets/fulcher.png" class="elevation-24" height="250" width="400" alt="vuemusic">
-          </a> -->
-
           </div>
 
-
-          <!-- <em>Design has always fascinated me.</em>
-          <em>How something breathtaking starts as a mere thought..</em>
-          <em>How a simple idea brought to life can impact someone's very own.</em>
-          <em>My name is Michael Smith</em>
-          <em>I am a creative.</em>
-          <em>I am a visionary.</em>
-          <em>I am a developer</em> -->
-
-
-
-
-
-
-
-
-
-          <!-- <v-btn class="grey lighten-4 mt-5 elevation-24" style="color:#212121" dark large href="/pre-made-themes">
-            Contact Me
-          </v-btn> -->
         </v-layout>
       </v-parallax>
 
 
-      <v-container fluid grid-list-sm text-xs-center class="portfolio">
+      <v-container  text-xs-center class="portfolio">
         <h1 class="  display-1 font-weight-thin mb-3" style="color:#f9f9f9;">Applications</h1>
-        <v-layout row wrap>
+      
 
-          <v-flex pa-5>
+          <v-flex>
+
 
 
 <!-- Portfolio -->
-<div>
+<div class="portfolio-wrap">
 <v-hover>
     <v-card
       slot-scope="{ hover }"
       class="mx-auto"
       color="grey lighten-4"
-      max-width="400"
+     max-width="400"
     >
 <a href="https://msmithboise.github.io/Slap-emon/">
       <v-img
@@ -217,7 +188,7 @@
     </v-card>
   </v-hover>
 
-</div>
+
 
 
 
@@ -320,9 +291,11 @@
     
     </v-card>
   </v-hover>
+
+  </div>
    
           </v-flex>
-        </v-layout>
+      
       </v-container>
 
       <v-footer light height="auto">
@@ -376,6 +349,22 @@ export default {
 
 
 <style>
+.prof-wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.portfolio-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.designs-wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .v-card--reveal {
   display: flex;
   justify-content: center;

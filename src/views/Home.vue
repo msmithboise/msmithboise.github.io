@@ -22,7 +22,7 @@
 
       <!-- proficiencies -->
 
-      <v-container fluid grid-list-sm text-xs-center class="profs-one">
+      <v-container fluid grid-list-sm text-xs-center>
 
 
 
@@ -437,9 +437,9 @@ em {
   color: #f9f9f9;
 }
 
-.portfolio {
+/* .portfolio {
   background-color: #050505;
-}
+} */
 
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));

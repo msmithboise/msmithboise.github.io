@@ -71,7 +71,7 @@
                 <img src="@/assets/cfc.png" class="elevation-24" height="250" width="400" alt="inspire">
               </a>
             
-              <a href="https://sweethopeinc.com/">
+              <a href="http://sweethopeinc.com/">
             <img src="@/assets/sweethope.png" class="elevation-24" height="250" width="400" alt="trillo">
             </a>
 

@@ -113,41 +113,214 @@
 
           <v-flex pa-5>
 
-            <div>
-              <a href="https://msmithboise.github.io/Slap-emon/">
 
-                <img src="@/assets/pokemonslap.png" class="elevation-24" height="250" width="400" alt="slap">
+<!-- Portfolio -->
+<div>
+<v-hover>
+    <v-card
+      slot-scope="{ hover }"
+      class="mx-auto"
+      color="grey lighten-4"
+      max-width="400"
+    >
+<a href="https://msmithboise.github.io/Slap-emon/">
+      <v-img
+        :aspect-ratio="16/9"
+       :src="require('@/assets/pokemonslap.png')"
+       class="elevation-24" height="250" width="400" alt="slap"
+      >
+        <v-expand-transition>
+          <div
+            v-if="hover"
+            class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
+            style="height: 100%;"
+          >
+           <h1>Pokemon Slap</h1>  | 
+           
+          <h3>Made with Javscript</h3> 
+          </div>
+        </v-expand-transition>
+      </v-img>
+        </a>
+      
+    </v-card>
+  </v-hover>
 
-              </a>
-            
-              <a href="https://partyox.herokuapp.com/#/">
-
-                <img src="@/assets/partyox.png" class="elevation-24" height="250" width="400" alt="ox">
-
-              </a>
-            </div>
-            
-            
-              
-              <a href="https://msmithboise.github.io/inspire/">
-                <img src="@/assets/inspire.png" class="elevation-24" height="250" width="400" alt="inspire">
-              </a>
-            
-              <a href="https://trillo-kanban.herokuapp.com/">
-            <img src="@/assets/trillo.png" class="elevation-24" height="250" width="400" alt="trillo">
-            </a>
 
 
+  <!-- inspire-->
 
-            <a href="https://msmithboise.github.io/Musicisfun/">
-            <img src="@/assets/vuemusic.png" class="elevation-24" height="250" width="400" alt="vuemusic">
-          </a>
+<v-hover>
+    <v-card
+      slot-scope="{ hover }"
+      class="mx-auto"
+      color="grey lighten-4"
+      max-width="400"
+    >
+<a href="https://msmithboise.github.io/inspire/">
+      <v-img
+        :aspect-ratio="16/9"
+       :src="require('@/assets/inspire.png')"
+       class="elevation-24" height="250" width="400" alt="slap"
+      >
+        <v-expand-transition>
+          <div
+            v-if="hover"
+            class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
+            style="height: 100%;"
+          >
+           <h1>Inspire</h1>  | 
+           
+          <h3>Made with Javscript</h3> 
+          </div>
+        </v-expand-transition>
+      </v-img>
+        </a>
+      
+    </v-card>
+  </v-hover>
 
-            <a href="https://msmithboise.github.io/battle-cards/#/">
-            <img src="@/assets/battlecatz.png" class="elevation-24" height="250" width="400" alt="battlecatz">
-            </a>
 
 
+
+
+
+  <!-- party ox-->
+
+<v-hover>
+    <v-card
+      slot-scope="{ hover }"
+      class="mx-auto"
+      color="grey lighten-4"
+      max-width="400"
+    >
+<a href="https://partyox.herokuapp.com/#/">
+      <v-img
+        :aspect-ratio="16/9"
+       :src="require('@/assets/partyox.png')"
+       class="elevation-24" height="250" width="400" alt="slap"
+      >
+        <v-expand-transition>
+          <div
+            v-if="hover"
+            class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
+            style="height: 100%;"
+          >
+           <h1>Party Ox</h1>  | 
+           
+          <h3>Made with Vue.Js | Node.Js | Express</h3> 
+          </div>
+        </v-expand-transition>
+      </v-img>
+        </a>
+     
+    </v-card>
+  </v-hover>
+
+</div>
+
+
+
+
+
+
+  <!-- Trillo-->
+
+<v-hover>
+    <v-card
+      slot-scope="{ hover }"
+      class="mx-auto"
+      color="grey lighten-4"
+      max-width="400"
+    >
+<a href="https://trillo-kanban.herokuapp.com/">
+      <v-img
+        :aspect-ratio="16/9"
+       :src="require('@/assets/trillo.png')"
+       class="elevation-24" height="250" width="400" alt="slap"
+      >
+        <v-expand-transition>
+          <div
+            v-if="hover"
+            class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
+            style="height: 100%;"
+          >
+           <h1>Trillo</h1>  | 
+           
+          <h3>Made with Vue.Js | Vuetify | Node.Js</h3> 
+          </div>
+        </v-expand-transition>
+      </v-img>
+        </a>
+      
+    </v-card>
+  </v-hover>
+
+  <!-- Music Is Fun-->
+
+<v-hover>
+    <v-card
+      slot-scope="{ hover }"
+      class="mx-auto"
+      color="grey lighten-4"
+      max-width="400"
+    >
+<a href="https://msmithboise.github.io/Musicisfun/">
+      <v-img
+        :aspect-ratio="16/9"
+       :src="require('@/assets/vuemusic.png')"
+       class="elevation-24" height="250" width="400" alt="slap"
+      >
+        <v-expand-transition>
+          <div
+            v-if="hover"
+            class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
+            style="height: 100%;"
+          >
+           <h1>Music is fun</h1>  | 
+           
+          <h3>Made with Javascript | Axios</h3> 
+          </div>
+        </v-expand-transition>
+      </v-img>
+        </a>
+    
+    </v-card>
+  </v-hover>
+
+
+  <!-- Battle Catz-->
+
+<v-hover>
+    <v-card
+      slot-scope="{ hover }"
+      class="mx-auto"
+      color="grey lighten-4"
+      max-width="400"
+    >
+<a href="https://msmithboise.github.io/battle-cards/#/">
+      <v-img
+        :aspect-ratio="16/9"
+       :src="require('@/assets/battlecatz.png')"
+       class="elevation-24" height="250" width="400" alt="slap"
+      >
+        <v-expand-transition>
+          <div
+            v-if="hover"
+            class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
+            style="height: 100%;"
+          >
+           <h1>Battle Catz</h1>  | 
+           
+          <h3>Made with Vue.Js | Axios</h3> 
+          </div>
+        </v-expand-transition>
+      </v-img>
+        </a>
+    
+    </v-card>
+  </v-hover>
+   
           </v-flex>
         </v-layout>
       </v-container>
@@ -203,6 +376,16 @@ export default {
 
 
 <style>
+.v-card--reveal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  opacity: 0.8;
+  position: absolute;
+  width: 100%;
+}
+
 h1 {
   font-size: 3vh;
 }

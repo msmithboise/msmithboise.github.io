@@ -104,11 +104,14 @@
           <div
             v-if="hover"
             class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
-            style="height: 100%;"
-          >
-           <h1>Pokemon Slap</h1>  | 
-           
-          <h3>Made with Javscript</h3> 
+            style="height: 100%;">
+         
+           <h1>Pokemon Slap</h1>
+          
+          
+        
+         
+         
           </div>
         </v-expand-transition>
       </v-img>
@@ -140,9 +143,9 @@
             class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
             style="height: 100%;"
           >
-           <h1>Inspire</h1>  | 
+           <h1>Inspire</h1>  
            
-          <h3>Made with Javscript</h3> 
+         
           </div>
         </v-expand-transition>
       </v-img>
@@ -177,9 +180,9 @@
             class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
             style="height: 100%;"
           >
-           <h1>Party Ox</h1>  | 
+           <h1>Party Ox</h1>  
            
-          <h3>Made with Vue.Js | Node.Js | Express</h3> 
+       
           </div>
         </v-expand-transition>
       </v-img>
@@ -216,9 +219,9 @@
             class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
             style="height: 100%;"
           >
-           <h1>Trillo</h1>  | 
+           <h1>Trillo</h1>  
            
-          <h3>Made with Vue.Js | Vuetify | Node.Js</h3> 
+          
           </div>
         </v-expand-transition>
       </v-img>
@@ -248,9 +251,9 @@
             class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
             style="height: 100%;"
           >
-           <h1>Music is fun</h1>  | 
+           <h1>Music is fun</h1>  
            
-          <h3>Made with Javascript | Axios</h3> 
+         
           </div>
         </v-expand-transition>
       </v-img>
@@ -274,6 +277,7 @@
         :aspect-ratio="16/9"
        :src="require('@/assets/battlecatz.png')"
        class="elevation-24" height="250" width="400" alt="slap"
+     
       >
         <v-expand-transition>
           <div
@@ -281,9 +285,9 @@
             class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-1 white--text"
             style="height: 100%;"
           >
-           <h1>Battle Catz</h1>  | 
+           <h1>Battle Catz</h1>  
            
-          <h3>Made with Vue.Js | Axios</h3> 
+      
           </div>
         </v-expand-transition>
       </v-img>
@@ -363,6 +367,7 @@ export default {
 .designs-wrap {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .v-card--reveal {
